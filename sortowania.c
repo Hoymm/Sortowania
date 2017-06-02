@@ -3,11 +3,11 @@
 #include <time.h>
 #include <sys/time.h>
 
-#define N_1 12000
-#define N_2 26000
-#define N_3 120000
-#define N_4 220000
-#define N_5 260000
+#define N_1 6000
+#define N_2 13000
+#define N_3 60000
+#define N_4 10000
+#define N_5 130000
 
 void sprawdzTabliceWPrzypadkuOptymistycznym();
 void sprawdzTabliceWPrzypadkuPesymistycznym();
