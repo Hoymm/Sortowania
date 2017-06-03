@@ -184,7 +184,7 @@ void sortujPrzezWybor(int tab [], int size){
 			}
 		}
 		zamien(tab+min, tab+i);
-		++iloscOperacjiPodst;
+		iloscOperacjiPodst += 3;
 	}
 	
 	wyswietlInformacjeOSortowaniu(size, iloscOperacjiPodst, getCurrentTimeInMilliseconds()-time);
