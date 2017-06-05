@@ -48,8 +48,8 @@ void zamien(int *a, int *b);
 
 int main(void){
 	sprawdzTabliceWPrzypadkuOptymistycznym();
-	sprawdzTabliceWPrzypadkuPesymistycznym();
-	sprawdzTabliceWPrzypadkuLosowym();
+	//sprawdzTabliceWPrzypadkuPesymistycznym();
+	//sprawdzTabliceWPrzypadkuLosowym();
 }
 
 void sprawdzTabliceWPrzypadkuOptymistycznym(){
@@ -330,7 +330,7 @@ void sortowanieSzybkie(int tab [], int poczatek, int koniec, unsigned long *oper
 }
 
 int podzial(int tab[], int poczatek, int koniec, unsigned long *operacjePodst){
-	int mur = tab[koniec];
+	int mur = tab[(poczatek+koniec)/2];
 	++(*operacjePodst);
 	int i = poczatek-1;
 	for (int j = poczatek; j < koniec-1; ++j){
